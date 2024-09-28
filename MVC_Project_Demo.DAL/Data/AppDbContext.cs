@@ -27,5 +27,8 @@ namespace MVC_Project_Demo.DAL.Data
         }
         
         public DbSet<Department>Departments{ get;set; }
+        public DbSet<Employee> Employees { get; set; }
+
+
     }
 }
